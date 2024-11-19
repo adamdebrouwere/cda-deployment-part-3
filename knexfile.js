@@ -8,6 +8,6 @@ export default {
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE,
     port: 5432,
-    ssl: true
+    ssl: false
   },
 };
